@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 52rem;
+  font-weight: bold;
+}
+
+.badge {
+  background-color: var(--gray-400);
+  border-radius: 10px;
+  padding: 0 7px;
+  color: var(--gray-200);
+}
+
+.created {
+  color: var(--blue);
+}
+
+.finished {
+  color: var(--purple);
+}
+
+.noTasks {
+  text-align: center;
+  line-weight: 20px;
+}
+
+.noTasks img {
+  height: 100px;
+  margin: 80px 0 40px 0;
+}
+
+.noTasksStrong {
+  font-weight: bold;
+  margin-bottom: 3px;
+}

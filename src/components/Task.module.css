@@ -1,0 +1,35 @@
+.taskContainer {
+  width: 52rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  gap: 20px;
+
+  background-color: var(--gray-500);
+  min-height: 72px;
+  color: var(--gray-100);
+}
+
+.taskCheck {
+  width: 30px;
+  height: 30px;
+}
+
+.deleteTask {
+  cursor: pointer;
+}
+
+.taskText {
+  width: 48rem;
+  text-align: left;
+}
+
+.taskTextCompleted {
+  width: 48rem;
+  text-align: left;
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
